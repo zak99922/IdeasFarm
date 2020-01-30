@@ -1,0 +1,238 @@
+/* General */
+body {
+  font: 15p/1.5 Arial, Helvetica, sans-serif;
+  padding: o;
+  margin: 0;
+  background-color: #f4f4f4;
+}
+
+.container {
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+.button_1 {
+  height: 38px;
+  background-color: #dc8e0d;
+  border: 0;
+  padding: 0 20px;
+  color: #ffffff;
+  font-size: 18px;
+}
+
+.button_1:hover {
+  cursor: pointer;
+}
+
+/* header */
+header {
+  background-color: #35424a;
+  color: #ffffff;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: #dc8e0d 3px solid;
+}
+
+header a {
+  color: #ffffff;
+  font-size: 16px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+header li {
+  display: inline;
+  padding: 0 20px;
+}
+
+header #brand {
+  float: left;
+}
+
+header #brand h1 {
+  margin: 0;
+  margin-bottom: 30px;
+}
+
+header nav {
+  float: right;
+  margin-top: 15px;
+}
+
+header .highlight,
+header .current a {
+  color: #dc8e0d;
+  font-weight: bolder;
+}
+
+header a {
+  color: #cccccc;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+/* showcase */
+#showcase {
+  min-height: 400px;
+  background: url("../img/pineapple.jpg") no-repeat 0 -400px;
+  background-attachment: fixed;
+  text-align: center;
+  color: #ffffff;
+  position: relative;
+}
+
+#showcase h1 {
+  padding-top: 60px;
+  font-size: 45px;
+  margin-bottom: 10px;
+  position: relative;
+  z-index: 2;
+  text-transform: capitalize;
+}
+
+#showcase p {
+  font-size: 20px;
+  position: relative;
+  z-index: 2;
+}
+
+#showcase .container::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.6);
+  z-index: 1;
+}
+
+/* email */
+#email {
+  padding: 15px;
+  color: #ffffff;
+  background-color: #35424a;
+}
+
+#email h1 {
+  float: left;
+}
+#email form {
+  float: right;
+  margin-top: 18px;
+}
+
+#email input[type="email"] {
+  padding: 4px;
+  height: 18px;
+  width: 200px;
+}
+
+/* boxes */
+#boxes .box img {
+  width: 80px;
+  border: 10px;
+}
+
+#boxes {
+  margin-top: 15px;
+}
+
+#boxes .box {
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding-bottom: 30px;
+  background-color: #ffffff;
+}
+
+/* customers */
+#customers {
+  background-color: #35424a;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+#customers .container {
+  display: flex;
+  justify-content: space-around;
+}
+
+#customers img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  padding-top: 10px;
+}
+
+#customers .customer {
+  width: 30%;
+  text-align: center;
+  color: #f4f4f4;
+  border: 4px solid orange;
+  border-radius: 10px;
+}
+
+#customers img,
+#customers h3 {
+  margin: 0;
+}
+
+#customers .title {
+  text-align: center;
+  font-size: 30px;
+  float: left;
+  padding-left: 120px;
+  margin: 0 30px;
+  padding-bottom: 30px;
+  color: #ffffff;
+}
+
+footer {
+  font-size: 20px;
+  text-align: center;
+  color: #ffffff;
+  background-color: #dc8e0d;
+  padding: 20px;
+}
+
+/* about page */
+
+.dark {
+  padding: 15px;
+  background-color: #35424a;
+  color: #ffffff;
+}
+
+aside#sidebar {
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+article#main-col {
+  float: left;
+  width: 65%;
+}
+
+/* service page */
+
+aside#sidebar .quote input,
+aside#sidebar .quote textarea {
+  width: 90%;
+  padding: 5px;
+}
+
+ul#services li {
+  padding: 20px;
+  margin-bottom: 5px;
+  list-style: none;
+  border: 1px soli #cccccc;
+  background-color: #e6e6e6;
+}
